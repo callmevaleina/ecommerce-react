@@ -1,0 +1,26 @@
+.navbar{
+  width: 100%;
+  background: var(--purple);
+
+}
+
+
+
+.navbar-nav{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  font-size: 22px;
+  padding-right: 30px !important;
+}
+
+.navbar-brand{
+ padding-left: 30px;
+}
+
+  .nav-link{
+    color: white !important;
+  }
+

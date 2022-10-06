@@ -1,0 +1,28 @@
+:root{
+  --lightGray: rgba(210,211,212,1);
+  --dark: rgb(33,37,41);
+  --purple: rgb(20, 23, 96) !important;
+  
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  background: rgb(0,0,0);
+  background:  rgba(255,255,255,1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  background: white !important;
+}
+
+.App{
+  width: 100%;
+  min-height: 100vh;
+}
+

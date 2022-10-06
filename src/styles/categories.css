@@ -1,0 +1,68 @@
+.home-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.products-categories-container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.categories-btns-container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 30px;
+    margin-top: -30px;
+}
+
+.categories-btns-container h5{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 22px;
+    color: var(--purple);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.categories-line{
+    width: 100%;
+    height: 2px;
+    background: rgb(20, 23, 96, 0.4);
+}
+
+
+
+.btn{
+    width: 150px;
+    border: none !important;
+    color: var(--purple) !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    padding: 0 !important;
+    font-size: 14px !important;
+}
+
+.btn:hover{
+    color: var(--dark) !important;
+    background: none !important;
+    cursor: pointer;
+
+}
+
